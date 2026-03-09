@@ -1,0 +1,26 @@
+[
+	{
+		"file": "E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/Module.CookingITS.gen.cpp",
+		"command": "\"C:/Program Files/LLVM/bin/clang-cl.exe\" @\"E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/Module.CookingITS.gen.cpp.obj.rsp\" ",
+		"directory": "E:/UE5.6/UE_5.6/Engine/Source",
+		"output": "E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/Module.CookingITS.gen.cpp.obj"
+	},
+	{
+		"file": "E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/PerModuleInline.gen.cpp",
+		"command": "\"C:/Program Files/LLVM/bin/clang-cl.exe\" @\"E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/PerModuleInline.gen.cpp.obj.rsp\" ",
+		"directory": "E:/UE5.6/UE_5.6/Engine/Source",
+		"output": "E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/PerModuleInline.gen.cpp.obj"
+	},
+	{
+		"file": "E:/CookingITS/Source/CookingITS/CharacterBase.cpp",
+		"command": "\"C:/Program Files/LLVM/bin/clang-cl.exe\" @\"E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/CharacterBase.cpp.obj.rsp\" ",
+		"directory": "E:/UE5.6/UE_5.6/Engine/Source",
+		"output": "E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/CharacterBase.cpp.obj"
+	},
+	{
+		"file": "E:/CookingITS/Source/CookingITS/CookingITS.cpp",
+		"command": "\"C:/Program Files/LLVM/bin/clang-cl.exe\" @\"E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/CookingITS.cpp.obj.rsp\" ",
+		"directory": "E:/UE5.6/UE_5.6/Engine/Source",
+		"output": "E:/CookingITS/Intermediate/Build/Win64/x64/UnrealEditor/Development/CookingITS/CookingITS.cpp.obj"
+	}
+]
