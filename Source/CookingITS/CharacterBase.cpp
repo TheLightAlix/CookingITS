@@ -37,6 +37,9 @@ ACharacterBase::ACharacterBase()
 	AbilitySystemComponent->SetIsReplicated(true);
 	AbilitySystemComponent->SetReplicationMode(ASCReplicationMode);
 
+	// Create the Attribute Set
+	AttributeSetBase = CreateDefaultSubobject<UBaseAttributeSet>(TEXT("AttributeSetBase"));
+
 }
 
 // Called when the game starts or when spawned

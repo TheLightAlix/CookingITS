@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "AbilitySystemInterface.h"
 #include "AbilitySystemComponent.h"
+#include "CookingITS/GameplayAbility/Attributes/BaseAttributeSet.h"
 #include "CharacterBase.generated.h"
 
 UCLASS()
@@ -20,6 +21,9 @@ public:
 	// Ability System Component
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Abilities")
 	class UAbilitySystemComponent* AbilitySystemComponent;	
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributes")
+	class UBaseAttributeSet* AttributeSetBase;
 
 protected:
 	// Called when the game starts or when spawned
